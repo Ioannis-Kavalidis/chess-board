@@ -7,9 +7,11 @@ td {
   height: 70px;
   border: 2px black solid;
 }
+/* selecting the even td's of the odd rows and coloring it black*/
 table tr:nth-child(odd) td:nth-child(even) {
   background: #000;
 }
+/* selecting the odd td's of the even rows and coloring it black*/
 table tr:nth-child(even) td:nth-child(odd) {
   background: #000;
 }
